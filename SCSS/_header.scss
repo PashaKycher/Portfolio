@@ -1,0 +1,123 @@
+.headerBg {
+    background-color: #fff;
+
+    .header {
+        display: flex; // none
+        justify-content: space-between;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0px;
+        align-items: center;
+        color: #000;
+        padding: 25px 10px;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .taskBar {
+            display: flex; // none
+            gap: 30px;
+
+            .header_taskBar_a {
+                font-weight: 400;
+                -webkit-text-stroke: 0.5px #000; // товщина та колір контуру
+                display: inline-block; // потрібно для transform, щоб не впливало на рядок
+                transition: transform 0.4s ease, color 0.5s ease; // плавність зміни
+            }
+
+            .header_taskBar_a:hover {
+                color: transparent; // робимо букви прозорими
+                transform: scale(1.1); // збільшення без зміщення інших елементів 
+            }
+        }
+
+        .translations {
+            padding: 8px 13px;
+            border: 1px solid #000;
+            color: #fff;
+            background: #000;
+            display: inline-block; // потрібно для transform, щоб не впливало на рядок
+            transition: transform 0.4s ease, color 0.5s ease; // плавність зміни
+        }
+
+        .translations:hover {
+            color: #000;
+            background: #fff;
+        }
+    }
+
+    .header_mobile {
+        display: none; // block
+        justify-content: space-between;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0px;
+        align-items: center;
+        color: #000;
+        transition: transform 1s ease;
+        padding: 25px 10px;
+
+        .nav_mobile {
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+
+        .menu_mobile {
+            display: none; // grid
+
+            .taskBar_mobile {
+                display: grid;
+                margin: auto;
+                text-align: center;
+                gap: 15px;
+
+                .header_taskBar_a {
+                    font-weight: 400;
+                    -webkit-text-stroke: 0.5px #000; // товщина та колір контуру
+                    display: inline-block; // потрібно для transform, щоб не впливало на рядок
+                    transition: transform 0.4s ease, color 0.5s ease; // плавність зміни
+                }
+
+                .header_taskBar_a:hover {
+                    color: transparent; // робимо букви прозорими
+                    transform: scale(1.1); // збільшення без зміщення інших елементів 
+                }
+            }
+
+            .translations {
+                margin: auto;
+                margin-top: 25px;
+                padding: 8px 13px;
+                border: 1px solid #000;
+                color: #fff;
+                background: #000;
+                display: block; // потрібно для transform, щоб не впливало на рядок
+                transition: transform 0.4s ease, color 0.5s ease; // плавність зміни
+            }
+
+            .translations:hover {
+                color: #000;
+                background: #fff;
+            }
+        }
+    }
+
+    @media(max-width:767px) {
+        .header {
+            display: none;
+        }
+
+        .header_mobile {
+            display: block;
+        }
+    }
+}

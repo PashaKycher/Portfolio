@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+figure, hr,
+fieldset, legend,
+input, button, textarea,
+th, td {
+  margin: 0;
+  padding: 0;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000;
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+:root {
+  --extra-line-space: 8px;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  color: #D4D4D8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: calc(1em + var(--extra-line-space));
+  letter-spacing: 0.3px;
+  overflow-x: hidden;
+  background: #000;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.headerBg {
+  background-color: #fff;
+}
+.headerBg .header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  align-items: center;
+  color: #000;
+  padding: 25px 10px;
+}
+.headerBg .header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerBg .header .taskBar {
+  display: flex;
+  gap: 30px;
+}
+.headerBg .header .taskBar .header_taskBar_a {
+  font-weight: 400;
+  -webkit-text-stroke: 0.5px #000;
+  display: inline-block;
+  transition: transform 0.4s ease, color 0.5s ease;
+}
+.headerBg .header .taskBar .header_taskBar_a:hover {
+  color: transparent;
+  transform: scale(1.1);
+}
+.headerBg .header .translations {
+  padding: 8px 13px;
+  border: 1px solid #000;
+  color: #fff;
+  background: #000;
+  display: inline-block;
+  transition: transform 0.4s ease, color 0.5s ease;
+}
+.headerBg .header .translations:hover {
+  color: #000;
+  background: #fff;
+}
+.headerBg .header_mobile {
+  display: none;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0px;
+  align-items: center;
+  color: #000;
+  transition: transform 1s ease;
+  padding: 25px 10px;
+}
+.headerBg .header_mobile .nav_mobile {
+  display: flex;
+  justify-content: space-between;
+}
+.headerBg .header_mobile .nav_mobile .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerBg .header_mobile .menu_mobile {
+  display: none;
+}
+.headerBg .header_mobile .menu_mobile .taskBar_mobile {
+  display: grid;
+  margin: auto;
+  text-align: center;
+  gap: 15px;
+}
+.headerBg .header_mobile .menu_mobile .taskBar_mobile .header_taskBar_a {
+  font-weight: 400;
+  -webkit-text-stroke: 0.5px #000;
+  display: inline-block;
+  transition: transform 0.4s ease, color 0.5s ease;
+}
+.headerBg .header_mobile .menu_mobile .taskBar_mobile .header_taskBar_a:hover {
+  color: transparent;
+  transform: scale(1.1);
+}
+.headerBg .header_mobile .menu_mobile .translations {
+  margin: auto;
+  margin-top: 25px;
+  padding: 8px 13px;
+  border: 1px solid #000;
+  color: #fff;
+  background: #000;
+  display: block;
+  transition: transform 0.4s ease, color 0.5s ease;
+}
+.headerBg .header_mobile .menu_mobile .translations:hover {
+  color: #000;
+  background: #fff;
+}
+@media (max-width: 767px) {
+  .headerBg .header {
+    display: none;
+  }
+  .headerBg .header_mobile {
+    display: block;
+  }
+}/*# sourceMappingURL=index.css.map */
