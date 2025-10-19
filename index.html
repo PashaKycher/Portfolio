@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" /> -->
+    <link rel="icon" href="./assets/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./JS/translations.js" defer></script>
     <script src="./JS/header.js" defer></script>
+    <script src="./JS/skills.js" defer></script>
+
     <link rel="stylesheet" href="./CSS/index.css">
     <title>Portfolio</title>
 </head>
@@ -58,11 +60,55 @@
 
     <main>
         <section class="heroBg">
-            <div class="container hero"></div>
+            <div class="container hero">
+                <div class="hero_banner">
+                    <img src="./assets/hero/banner.png" alt="Banner">
+                </div>
+                <div class="hero_info">
+                    <div class="info_h">
+                        <h1 class="hero_h">
+                            <span class="hero_normal" data-i18n="hero_normal_1"></span>
+                            <span class="hero_bold" data-i18n="hero_bold_1"></span>
+                        </h1>
+                        <h1 class="hero_h">
+                            <span class="hero_bold" data-i18n="hero_bold_2"></span>
+                            <span class="hero_transparent" data-i18n="hero_transparent"></span>
+                        </h1>
+                        <h1 class="hero_h">
+                            <span class="hero_normal" data-i18n="hero_normal_2"></span>
+                            <span class="hero_bold" data-i18n="hero_bold_3"></span>
+                        </h1>
+                    </div>
+                    <div class="info_p">
+                        <p class="hero_p" data-i18n="hero_p"></p>
+                    </div>
+                    <div class="info_icon">
+                        <a href="https://www.linkedin.com/in/pavlo-kucheriavykh-1b8053329" target="_blank">
+                            <img src="./assets/hero/icon/Linkedin.png" alt="Linkedin" class="hero_icon">
+                        </a>
+                        <a href="https://github.com/PashaKycher" target="_blank">
+                            <img src="./assets/hero/icon/GitHub.png" alt="GitHub" class="hero_icon">
+                        </a>
+                        <a href="https://t.me/Kucheriavykh_Pa" target="_blank">
+                            <img src="./assets/hero/icon/telegram.png" alt="telegram" class="hero_icon">
+                        </a>
+                        <a href="https://djinni.co/q/969a4f032a/" target="_blank">
+                            <img src="./assets/hero/icon/Djinni.png" alt="Djinni" class="hero_icon">
+                        </a>  
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="skills" class="skillsBg">
-            <div class="container skills"></div>
+            <div class="container skills">
+                <div class="skills_title">
+                    <span class="skills_normal" data-i18n="skills_normal"></span>
+                    <span class="skills_bold" data-i18n="skills_bold"></span>
+                </div>
+
+                <div class="skills_skills"></div>
+            </div>
         </section>
 
         <section class="experienceBg">

@@ -1,0 +1,94 @@
+.skillsBg {
+    background-color: #fff;
+
+    .skills {
+        padding: 60px 10px;
+
+        .skills_title {
+            text-align: center;
+            color: #000;
+
+            .skills_normal {
+                font-weight: 400;
+                font-size: 48px;
+                letter-spacing: 0px;
+            }
+
+            .skills_bold {
+                font-weight: 800;
+                font-size: 48px;
+                letter-spacing: 0px;
+                display: inline-block;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+        }
+
+        .skills_skills {
+            max-width: 1150px;
+            margin: auto;
+            padding-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(56px, 186px));
+            gap: 50px;
+
+            .skills_card {
+                border: 2px #000 solid;
+                border-radius: 5px;
+                align-items: center;
+                text-align: center;
+
+                .skills_card_img {
+                    padding-top: 10%;
+                    width: 56px;
+                    height: 56px;
+                    margin: auto;
+                }
+
+                .skills_card_p {
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    @media(max-width:1149px) {
+        .skills {
+            .skills_skills {
+                max-width: 915px;
+            }
+        }
+    }
+
+    @media(max-width:915px) {
+        .skills {
+            .skills_skills {
+                max-width: 680px;
+            }
+        }
+    }
+
+    @media(max-width:768px) {
+        .skills {
+            padding: 0px 10px;
+        }
+    }
+
+    @media(max-width:680px) {
+        .skills {
+            .skills_skills {
+                max-width: 445px;
+            }
+        }
+    }
+
+    @media(max-width:445px) {
+        .skills {
+            .skills_skills {
+                max-width: 190px;
+            }
+        }
+    }
+}
