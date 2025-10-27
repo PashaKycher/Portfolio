@@ -1,0 +1,93 @@
+.testimonialBg {
+    background-color: #fff;
+
+    .testimonial {
+        padding: 60px 10px;
+
+        .testimonial_h2 {
+            color: #000;
+            text-align: center;
+
+            .testimonial_h2_normal {
+                font-weight: 400;
+                font-size: 48px;
+                letter-spacing: 0px;
+            }
+
+            .testimonial_h2_bold {
+                font-weight: 800;
+                font-size: 48px;
+                letter-spacing: 0px;
+                display: inline-block;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+        }
+
+        .testimonial_block {
+            display: flex;
+            justify-content: space-between;
+            gap:10px;
+            padding-top: 60px;
+            color: #404040;
+
+            .testimonial_card {
+                text-align: center;
+                border-radius: 20px;
+                box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.75);
+                -webkit-box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.75);
+                max-width: 370px;
+
+                .testimonial_card_img {
+                    margin: auto;
+                    padding-top: 40px;
+                    padding-bottom: 25px;
+                }
+
+                .testimonial_card_info {
+                    font-weight: 400;
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    padding-bottom: 25px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                }
+
+                .testimonial_card_line {
+                    padding: 1px;
+                    background-color: #404040;
+                    display: inline-block;
+                    width: 120px;
+                    margin: auto;
+                }
+
+                .testimonial_card_name {
+                    font-weight: 600;
+                    font-size: 20px;
+                    letter-spacing: 0px;
+                    padding-top: 25px;
+                    padding-bottom: 25px;
+                }
+            }
+        }
+
+        .testimonial_card_black {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+    @media(max-width:767px) {
+        .testimonial {
+            .testimonial_block {
+                display: block;
+
+                .testimonial_card {
+                    margin: auto;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

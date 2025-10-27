@@ -1,0 +1,156 @@
+.experienceBg {
+    background-color: #000;
+
+    .experience {
+        padding: 80px 10px;
+        .experience_h2 {
+            padding-bottom: 60px;
+            text-align: center;
+            color: #fff;
+
+            .experience_h2_normal {
+                font-weight: 400;
+                font-size: 48px;
+                letter-spacing: 0px;
+            }
+
+            .experience_h2_bold {
+                font-weight: 800;
+                font-size: 48px;
+                letter-spacing: 0px;
+                display: inline-block;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+        }
+
+        .experience_block_black {
+            padding: 15px 20px;
+            border: 1px solid #71717A;
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            .experience_block_header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 30px;
+                padding-bottom: 25px;
+
+                .block_logo {
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+
+                    .experience_block_logo {
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 5px;
+                    }
+
+                    .experience_block_h3 {
+                        color: #fff;
+                        font-weight: 600;
+                        font-size: 24px;
+                        letter-spacing: 0px;
+                    }
+                }
+
+                .experience_block_data {
+                    font-weight: 600;
+                    font-size: 16px;
+                    letter-spacing: 0px;
+                }
+            }
+
+            .experience_block_info {
+                font-weight: 400;
+                font-size: 16px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .experience_block_zinc {
+            padding: 15px 20px;
+            border: 1px solid #71717A;
+            border-radius: 10px;
+            background-color: #71717A;
+
+            .experience_block_header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 30px;
+                padding-bottom: 25px;
+
+                .block_logo {
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+
+                    .experience_block_logo {
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 5px;
+                    }
+
+                    .experience_block_h3 {
+                        color: #fff;
+                        font-weight: 600;
+                        font-size: 24px;
+                        letter-spacing: 0px;
+                    }
+                }
+
+                .experience_block_data {
+                    font-weight: 600;
+                    font-size: 16px;
+                    letter-spacing: 0px;
+                }
+            }
+
+            .experience_block_info {
+                font-weight: 400;
+                font-size: 16px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    @media(max-width:767px) {
+        .experience {
+            .experience_block_black {
+                .experience_block_header {
+                    display: block;
+
+                    .block_logo {
+                        .experience_block_h3 {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .experience_block_data {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .experience_block_zinc {
+                .experience_block_header {
+                    display: block;
+
+                    .block_logo {
+                        .experience_block_h3 {
+                            font-size: 16px;
+                        }
+                    }
+
+                    .experience_block_data {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
