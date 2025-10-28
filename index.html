@@ -121,7 +121,8 @@
                 <div class="experience_block_black">
                     <div class="experience_block_header">
                         <div class="block_logo">
-                            <img src="./assets/experience/CyberBionic_Systematics.jpg" alt="" class="experience_block_logo">
+                            <img src="./assets/experience/CyberBionic_Systematics.jpg" alt=""
+                                class="experience_block_logo">
                             <h3 class="experience_block_h3" data-i18n="experience_block_h3_1"></h3>
                         </div>
                         <p class="experience_block_data" data-i18n="experience_block_data_1"></p>
@@ -214,12 +215,48 @@
         </section>
 
         <section id="contactMe" class="contactFormBg">
-            <div class="container contactForm"></div>
+            <div class="container contactForm">
+                <form class="contactForm_form" action="https://formspree.io/f/xanlegnk" method="POST">
+                    <input type="text" class="contactForm_input" name="name" placeholder="Your name">
+                    <input type="text" class="contactForm_input" name="email" placeholder="Email">
+                    <input type="text" class="contactForm_input" name="webside" placeholder="Your website (If exists)">
+                    <textarea rows="5" class="contactForm_input_textarea" name="message" placeholder="How can I help?*"></textarea>
+                    <button type="submit" data-i18n="contactForm_button" class="contactForm_button"></button>
+                </form>
+
+                <div class="contactForm_info">
+                    <p class="contactForm_info_header">
+                        <span data-i18n="contactForm_info_header_1"></span>
+                        <span data-i18n="contactForm_info_header_2" class="contactForm_info_header_s"></span>
+                        <span data-i18n="contactForm_info_header_3"></span>
+                        <br>
+                        <span data-i18n="contactForm_info_header_4"></span>
+                        <span data-i18n="contactForm_info_header_5"></span>
+                    </p>
+
+                    <p data-i18n="contactForm_info_p" class="contactForm_info_header_p"></p>
+
+                    <p class="contactForm_info_header_p_con">
+                        <span>PashaKycher89@gmail.com</span>
+                        <br><br>
+                        <span>+380983078968</span>
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer class="footerBg">
-        <div class="container footer"></div>
+        <div class="container footer">
+            <div class="footer_logo">
+                <img src="./assets/footer/footer_logo.png" alt="" class="footer_logo_img">
+            </div>
+
+            <div class="footer_info">
+                <p class="info_p">@ 2019-2023 Personal</p>
+                <p class="info_p" data-i18n="footer_info_p"></p>
+            </div>
+        </div>
     </footer>
 
 

@@ -1,0 +1,128 @@
+.contactFormBg {
+    background-color: #fff;
+
+    .contactForm {
+        padding: 60px 10px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+
+        .contactForm_form {
+            width: 90%;
+            max-width: 500px;
+            display: grid;
+            gap: 20px;
+
+            .contactForm_input {
+                width: 100%;
+                padding: 20px 15px;
+                border: #000 solid 1px;
+                border-radius: 5px;
+                color: #71717A;
+                font-weight: 400;
+                font-size: 16px;
+                letter-spacing: 0px;
+            }
+
+            .contactForm_input_textarea {
+                resize: none;
+                width: 100%;
+                padding: 20px 15px;
+                border: #000 solid 1px;
+                border-radius: 5px;
+                color: #71717A;
+                font-weight: 400;
+                font-size: 16px;
+                letter-spacing: 0px;
+            }
+
+            .contactForm_button {
+                padding: 15px 15px;
+                border: #000 solid 1px;
+                border-radius: 5px;
+                color: #fff;
+                background: #000;
+                display: inline-block; // потрібно для transform, щоб не впливало на рядок
+                transition: transform 0.4s ease, color 0.5s ease; // плавність зміни
+            }
+
+            .contactForm_button:hover {
+                color: #000;
+                background: #fff;
+            }
+        }
+
+        .contactForm_info {
+            width: 90%;
+            max-width: 600px;
+
+            .contactForm_info_header {
+                font-weight: 800;
+                font-size: 48px;
+                letter-spacing: 0px;
+                display: inline-block;
+                color: #000;
+
+                span {
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    display: inline-block;
+                }
+
+                .contactForm_info_header_s {
+                    -webkit-text-stroke: 1px #000;
+                    color: transparent;
+                }
+            }
+
+            .contactForm_info_header_p {
+                padding-top: 20px;
+                padding-bottom: 40px;
+                color: #71717A;
+                font-weight: 400;
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+
+            .contactForm_info_header_p_con {
+                color: #000;
+                font-weight: 600;
+                font-size: 26px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+    @media(max-width:767px) {
+        .contactForm {
+            display: block;
+
+            .contactForm_form {
+                margin: auto;
+            }
+
+            .contactForm_info {
+                margin-top: 20px;
+
+                .contactForm_info_header {
+                    font-weight: 600;
+                    font-size: 38px;
+
+                    span {
+                        margin-bottom: 10px;
+                        margin-top: 10px;
+                    }
+                }
+
+                .contactForm_info_header_p {
+                    padding-top: 15px;
+                    padding-bottom: 20px;
+                }
+
+                .contactForm_info_header_p_con {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

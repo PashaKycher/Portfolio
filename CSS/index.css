@@ -68,6 +68,10 @@ img, svg {
   --extra-line-space: 8px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Sora", sans-serif;
   color: #D4D4D8;
@@ -595,5 +599,144 @@ img {
   .testimonialBg .testimonial .testimonial_block .testimonial_card {
     margin: auto;
     margin-bottom: 20px;
+  }
+}
+
+.contactFormBg {
+  background-color: #fff;
+}
+.contactFormBg .contactForm {
+  padding: 60px 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.contactFormBg .contactForm .contactForm_form {
+  width: 90%;
+  max-width: 500px;
+  display: grid;
+  gap: 20px;
+}
+.contactFormBg .contactForm .contactForm_form .contactForm_input {
+  width: 100%;
+  padding: 20px 15px;
+  border: #000 solid 1px;
+  border-radius: 5px;
+  color: #71717A;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.contactFormBg .contactForm .contactForm_form .contactForm_input_textarea {
+  resize: none;
+  width: 100%;
+  padding: 20px 15px;
+  border: #000 solid 1px;
+  border-radius: 5px;
+  color: #71717A;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.contactFormBg .contactForm .contactForm_form .contactForm_button {
+  padding: 15px 15px;
+  border: #000 solid 1px;
+  border-radius: 5px;
+  color: #fff;
+  background: #000;
+  display: inline-block;
+  transition: transform 0.4s ease, color 0.5s ease;
+}
+.contactFormBg .contactForm .contactForm_form .contactForm_button:hover {
+  color: #000;
+  background: #fff;
+}
+.contactFormBg .contactForm .contactForm_info {
+  width: 90%;
+  max-width: 600px;
+}
+.contactFormBg .contactForm .contactForm_info .contactForm_info_header {
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 0px;
+  display: inline-block;
+  color: #000;
+}
+.contactFormBg .contactForm .contactForm_info .contactForm_info_header span {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.contactFormBg .contactForm .contactForm_info .contactForm_info_header .contactForm_info_header_s {
+  -webkit-text-stroke: 1px #000;
+  color: transparent;
+}
+.contactFormBg .contactForm .contactForm_info .contactForm_info_header_p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #71717A;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.contactFormBg .contactForm .contactForm_info .contactForm_info_header_p_con {
+  color: #000;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+@media (max-width: 767px) {
+  .contactFormBg .contactForm {
+    display: block;
+  }
+  .contactFormBg .contactForm .contactForm_form {
+    margin: auto;
+  }
+  .contactFormBg .contactForm .contactForm_info {
+    margin-top: 20px;
+  }
+  .contactFormBg .contactForm .contactForm_info .contactForm_info_header {
+    font-weight: 600;
+    font-size: 38px;
+  }
+  .contactFormBg .contactForm .contactForm_info .contactForm_info_header span {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .contactFormBg .contactForm .contactForm_info .contactForm_info_header_p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .contactFormBg .contactForm .contactForm_info .contactForm_info_header_p_con {
+    font-size: 16px;
+  }
+}
+
+.footerBg {
+  background-color: #000;
+}
+.footerBg .footer {
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerBg .footer .footer_logo_img {
+  max-width: 140px;
+  max-height: 40px;
+}
+.footerBg .footer .footer_info {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+@media (max-width: 424px) {
+  .footerBg .footer .footer_logo_img {
+    display: none;
+  }
+  .footerBg .footer .footer_info {
+    text-align: center;
+    margin: auto;
   }
 }/*# sourceMappingURL=index.css.map */

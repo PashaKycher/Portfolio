@@ -4,6 +4,10 @@
   --extra-line-space: 8px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Sora", sans-serif;
     color: #D4D4D8;

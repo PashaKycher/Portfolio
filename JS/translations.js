@@ -34,6 +34,8 @@ const translations = {
         aboutMe_h3_bold: "Me",
         aboutMe_p: "I am a dedicated Frontend Developer passionate about building modern, efficient, and visually appealing web applications. With a solid background in Full-Stack Development (React.js & Node.js), I focus on bringing ideas to life through clean, structured, and user-oriented solutions. I value code quality, performance, and design precision — elements that define great user experience. My journey into web development began with CyberBionic Systematics, where I strengthened both technical and creative skills. Today, I’m focused on crafting reliable digital products using React, Node.js, SCSS, Git, and Vercel, while continuously expanding my expertise in modern web technologies. Outside of coding, I’m interested in UI design, analytics, and developing personal side projects.",
 
+        project: "",
+
         testimonial_h2_normal: "My",
         testimonial_h2_bold:"Testimonial",
         testimonial_card_info_1:"Pavel approaches every task responsibly and consistently delivers quality results. His attention to detail and ability to solve technical issues leave a strong impression.",
@@ -42,6 +44,17 @@ const translations = {
         testimonial_card_name_2: "Andrii Honchar",
         testimonial_card_info_3:"Pavel demonstrates solid knowledge of modern technologies and great attention to code quality. His approach inspires confidence and trust in the outcome.",
         testimonial_card_name_3: "Iryna Bondar",
+
+        form: "",
+        contactForm_button: "Get In Touch",
+        contactForm_info_header_1: "Let’s",
+        contactForm_info_header_2: "talk",
+        contactForm_info_header_3: "for",
+        contactForm_info_header_4: "Something",
+        contactForm_info_header_5: "special",
+        contactForm_info_p: "I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.",
+
+        footer_info_p: "Made by Kucheriavykh Pavel"
     },
     ua: {
         header_logo: "Портфоліо",
@@ -76,6 +89,8 @@ const translations = {
         aboutMe_h3_bold: "Мене",
         aboutMe_p: "Я — цілеспрямований Frontend-розробник, який активно розвивається у сфері веб-технологій. Маю ґрунтовну підготовку за напрямом Full-Stack Development (React.js & Node.js) та практичний досвід створення інтерактивних веб-додатків. Мене захоплює процес перетворення ідей у функціональні, зручні та візуально привабливі продукти. Особливу увагу приділяю якості коду, структурі проєктів і деталям інтерфейсу, що формують позитивний користувацький досвід. Свій шлях у веб-розробці я почав із навчання в CyberBionic Systematics, постійно вдосконалюючи навички та освоюючи нові технології. Зараз зосереджуюсь на створенні сучасних рішень із використанням React, Node.js, SCSS, Git та Vercel. Коли не займаюся кодом, цікавлюся дизайном інтерфейсів, аналітикою й розвитком особистих проєктів.",
 
+        project: "",
+
         testimonial_h2_normal: "Відгуки про",
         testimonial_h2_bold:"мене",
         testimonial_card_info_1:"Павло відповідально підходить до кожного завдання та завжди доводить роботу до кінця. Його уважність до деталей і вміння знаходити рішення технічних питань справляють гарне враження.",
@@ -84,6 +99,17 @@ const translations = {
         testimonial_card_name_2: "Андрій Гончар",
         testimonial_card_info_3:"Павло добре орієнтується в сучасних технологіях та уважно ставиться до якості коду. Його підхід до роботи викликає довіру і впевненість у результаті.",
         testimonial_card_name_3: "Ірина Бондар",
+
+        form: "",
+        contactForm_button: "Зв’язатися зі мною",
+        contactForm_info_header_1: "Давайте",
+        contactForm_info_header_2: "обговоримо",
+        contactForm_info_header_3: " ",
+        contactForm_info_header_4: "Щось",
+        contactForm_info_header_5: "особливе",
+        contactForm_info_p: "Я прагну розширювати межі креативності, створюючи захопливі, зручні для користувача та незабутні інтерактивні рішення.",
+
+        footer_info_p: "Створено Павлом Кучерявих"
     },
 };
 
