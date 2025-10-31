@@ -2,7 +2,7 @@ const projects = [
     {
         name: "Yummy",
         type: "lg",
-        image: "../assets/project/image_1.png",
+        image: "./assets/project/image_1.png",
         href: "https://pashakycher.github.io/Yummy",
         info: {
             en: {
@@ -18,7 +18,7 @@ const projects = [
     {
         name: "Photographer",
         type: "lg",
-        image: "../assets/project/image_2.png",
+        image: "./assets/project/image_2.png",
         href: "https://pashakycher.github.io/Photographer",
         info: {
             en: {
@@ -34,7 +34,7 @@ const projects = [
     {
         name: "Analytics",
         type: "lg",
-        image: "../assets/project/image_3.png",
+        image: "./assets/project/image_3.png",
         href: "https://pashakycher.github.io/Analytics",
         info: {
             en: {
@@ -50,7 +50,7 @@ const projects = [
     {
         name: "Restoran",
         type: "lg",
-        image: "../assets/project/image_1.png",
+        image: "./assets/project/image_1.png",
         href: "https://pashakycher.github.io/Restoran",
         info: {
             en: {
@@ -66,7 +66,7 @@ const projects = [
     {
         name: "Body_Shape",
         type: "lg",
-        image: "../assets/project/image_2.png",
+        image: "./assets/project/image_2.png",
         href: "https://pashakycher.github.io/Body_Shape",
         info: {
             en: {
@@ -82,7 +82,7 @@ const projects = [
     {
         name: "Game_Page",
         type: "lg",
-        image: "../assets/project/image_3.png",
+        image: "./assets/project/image_3.png",
         href: "https://pashakycher.github.io/Game_Page",
         info: {
             en: {
@@ -98,7 +98,7 @@ const projects = [
     {
         name: "2D_Artist",
         type: "lg",
-        image: "../assets/project/image_1.png",
+        image: "./assets/project/image_1.png",
         href: "https://pashakycher.github.io/2D_Artist",
         info: {
             en: {
@@ -114,7 +114,7 @@ const projects = [
     {
         name: "News",
         type: "lg",
-        image: "../assets/project/image_2.png",
+        image: "./assets/project/image_2.png",
         href: "https://pashakycher.github.io/News",
         info: {
             en: {
@@ -130,7 +130,7 @@ const projects = [
     {
         name: "Manhattan",
         type: "lg",
-        image: "../assets/project/image_3.png",
+        image: "./assets/project/image_3.png",
         href: "https://pashakycher.github.io/Manhattan",
         info: {
             en: {
@@ -146,7 +146,7 @@ const projects = [
     {
         name: "ToDo",
         type: "fr",
-        image: "../assets/project/image_1.png",
+        image: "./assets/project/image_1.png",
         href: "https://to-do-opal-alpha.vercel.app",
         info: {
             en: {
@@ -162,7 +162,7 @@ const projects = [
     {
         name: "MoviesDB",
         type: "fr",
-        image: "../assets/project/image_2.png",
+        image: "./assets/project/image_2.png",
         href: "https://movies-db-iota-lime.vercel.app",
         info: {
             en: {
@@ -178,7 +178,7 @@ const projects = [
     {
         name: "Shop",
         type: "fr",
-        image: "../assets/project/image_3.png",
+        image: "./assets/project/image_3.png",
         href: "https://shop-rust-one.vercel.app",
         info: {
             en: {
@@ -194,7 +194,7 @@ const projects = [
     {
         name: "Weather",
         type: "fr",
-        image: "../assets/project/image_1.png",
+        image: "./assets/project/image_1.png",
         href: "https://weather-red-three.vercel.app",
         info: {
             en: {
@@ -210,7 +210,7 @@ const projects = [
     {
         name: "Movies_market",
         type: "fr",
-        image: "../assets/project/image_2.png",
+        image: "./assets/project/image_2.png",
         href: "https://movies-market.vercel.app",
         info: {
             en: {
@@ -226,7 +226,7 @@ const projects = [
     {
         name: "Chat",
         type: "fl",
-        image: "../assets/project/image_3.png",
+        image: "./assets/project/image_3.png",
         href: "https://chat-client-hsiq.onrender.com/",
         info: {
             en: {
@@ -242,7 +242,7 @@ const projects = [
     {
         name: "Ecommerce",
         type: "fl",
-        image: "../assets/project/image_1.png",
+        image: "./assets/project/image_1.png",
         href: "https://ecommerce-frontend-iota-one.vercel.app",
         info: {
             en: {
@@ -258,7 +258,7 @@ const projects = [
     {
         name: "ATB_market",
         type: "fl",
-        image: "../assets/project/image_2.png",
+        image: "./assets/project/image_2.png",
         href: "https://atb-market-7c6m.vercel.app",
         info: {
             en: {
@@ -274,7 +274,7 @@ const projects = [
     {
         name: "Live_Journal",
         type: "fl",
-        image: "../assets/project/image_3.png",
+        image: "./assets/project/image_3.png",
         href: "https://live-journal-blush.vercel.app",
         info: {
             en: {
@@ -290,7 +290,7 @@ const projects = [
     {
         name: "Car_Rental",
         type: "fl",
-        image: "../assets/project/image_1.png",
+        image: "./assets/project/image_1.png",
         href: "https://car-rentalclient.vercel.app",
         info: {
             en: {
@@ -306,7 +306,7 @@ const projects = [
     {
         name: "QuickGPT",
         type: "fl",
-        image: "../assets/project/image_2.png",
+        image: "./assets/project/image_2.png",
         href: "",
         info: {
             en: {
