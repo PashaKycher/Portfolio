@@ -307,7 +307,7 @@ const projects = [
         name: "QuickGPT",
         type: "fl",
         image: "./assets/project/image_2.png",
-        href: "",
+        href: "https://quick-gpt-five-taupe.vercel.app",
         info: {
             en: {
                 project_QuickGPT:
