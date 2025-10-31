@@ -1,4 +1,5 @@
 
+
 const translations = {
     en: {
         header_logo: "Portfolio",
@@ -34,7 +35,8 @@ const translations = {
         aboutMe_h3_bold: "Me",
         aboutMe_p: "I am a dedicated Frontend Developer passionate about building modern, efficient, and visually appealing web applications. With a solid background in Full-Stack Development (React.js & Node.js), I focus on bringing ideas to life through clean, structured, and user-oriented solutions. I value code quality, performance, and design precision — elements that define great user experience. My journey into web development began with CyberBionic Systematics, where I strengthened both technical and creative skills. Today, I’m focused on crafting reliable digital products using React, Node.js, SCSS, Git, and Vercel, while continuously expanding my expertise in modern web technologies. Outside of coding, I’m interested in UI design, analytics, and developing personal side projects.",
 
-        project: "",
+        project_h3_normal: "My",
+        project_h3_bold: "Projects",
 
         testimonial_h2_normal: "My",
         testimonial_h2_bold:"Testimonial",
@@ -45,7 +47,6 @@ const translations = {
         testimonial_card_info_3:"Pavel demonstrates solid knowledge of modern technologies and great attention to code quality. His approach inspires confidence and trust in the outcome.",
         testimonial_card_name_3: "Iryna Bondar",
 
-        form: "",
         contactForm_button: "Get In Touch",
         contactForm_info_header_1: "Let’s",
         contactForm_info_header_2: "talk",
@@ -89,7 +90,8 @@ const translations = {
         aboutMe_h3_bold: "Мене",
         aboutMe_p: "Я — цілеспрямований Frontend-розробник, який активно розвивається у сфері веб-технологій. Маю ґрунтовну підготовку за напрямом Full-Stack Development (React.js & Node.js) та практичний досвід створення інтерактивних веб-додатків. Мене захоплює процес перетворення ідей у функціональні, зручні та візуально привабливі продукти. Особливу увагу приділяю якості коду, структурі проєктів і деталям інтерфейсу, що формують позитивний користувацький досвід. Свій шлях у веб-розробці я почав із навчання в CyberBionic Systematics, постійно вдосконалюючи навички та освоюючи нові технології. Зараз зосереджуюсь на створенні сучасних рішень із використанням React, Node.js, SCSS, Git та Vercel. Коли не займаюся кодом, цікавлюся дизайном інтерфейсів, аналітикою й розвитком особистих проєктів.",
 
-        project: "",
+        project_h3_normal: "Мої",
+        project_h3_bold: "Проекти",
 
         testimonial_h2_normal: "Відгуки про",
         testimonial_h2_bold:"мене",
@@ -100,7 +102,6 @@ const translations = {
         testimonial_card_info_3:"Павло добре орієнтується в сучасних технологіях та уважно ставиться до якості коду. Його підхід до роботи викликає довіру і впевненість у результаті.",
         testimonial_card_name_3: "Ірина Бондар",
 
-        form: "",
         contactForm_button: "Зв’язатися зі мною",
         contactForm_info_header_1: "Давайте",
         contactForm_info_header_2: "обговоримо",

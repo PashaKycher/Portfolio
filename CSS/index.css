@@ -523,6 +523,113 @@ img {
   }
 }
 
+.projectBg {
+  background-color: #000;
+}
+.projectBg .project {
+  padding: 60px 10px;
+}
+.projectBg .project .project_h3 {
+  color: #fff;
+  text-align: center;
+}
+.projectBg .project .project_h3 .project_h3_normal {
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0px;
+}
+.projectBg .project .project_h3 .project_h3_bold {
+  font-weight: 800;
+  font-size: 48px;
+  letter-spacing: 0px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.projectBg .project .projects-filter {
+  display: flex;
+  justify-content: space-between;
+  max-width: 480px;
+  margin: auto;
+  padding: 50px 10px;
+}
+.projectBg .project .projects-filter .filter-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.projectBg .project .projects-filter .filter-btn.active {
+  color: #71717A;
+  border-bottom: 2px solid #71717A;
+}
+.projectBg .project .projects-container .project-card {
+  padding: 10px;
+  display: flex;
+  gap: 50px;
+  margin: auto;
+  max-width: 900px;
+}
+.projectBg .project .projects-container .project-card .project-card-img {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.projectBg .project .projects-container .project-card .project-card-img img {
+  width: 268px;
+  height: 268px;
+  border: #71717A 1px solid;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.projectBg .project .projects-container .project-card .project-card-info {
+  max-width: 580px;
+}
+.projectBg .project .projects-container .project-card .project-card-info h3 {
+  font-weight: 800;
+  font-size: 32px;
+  letter-spacing: 0px;
+  padding: 20px;
+}
+.projectBg .project .projects-container .project-card .project-card-info p {
+  color: #71717A;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0px;
+  padding-bottom: 50px;
+}
+.projectBg .project .projects-container .project-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.projectBg .project .pagination {
+  margin: auto;
+  width: 220px;
+  padding-top: 50px;
+}
+.projectBg .project .pagination .prev-btn {
+  margin-right: 100px;
+}
+.projectBg .project .pagination button:disabled {
+  opacity: 0.4;
+  color: #000;
+  cursor: not-allowed;
+}
+@media (max-width: 1023px) {
+  .projectBg .project .projects-container .project-card .project-card-info {
+    max-width: 380px;
+  }
+}
+@media (max-width: 767px) {
+  .projectBg .project .projects-container .project-card {
+    display: block;
+  }
+  .projectBg .project .projects-container .project-card:nth-child(even) {
+    display: block;
+  }
+}
+
 .testimonialBg {
   background-color: #fff;
 }
